@@ -31,4 +31,6 @@ Acesse http://localhost:8000/ para visitar a interface gráfica e começar a con
 
 ## Demo
 
-[video (1).webm](https://github.com/elisaflemer/m8-p4/assets/99259251/a3c5d384-ef8f-479c-b5c2-77a7d30a42cd)
+[video (2).webm](https://github.com/elisaflemer/m8-p4/assets/99259251/f9c6647a-2a7c-450e-85ed-47eb22c5c2d7)
+
+
