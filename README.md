@@ -1,10 +1,10 @@
 # Ponderada 4, módulo 8
 
-Esta atividade solicitava a criação de uma interface gráfica integrada a um LLM (no caso, ChatGPT/OPenAI) especializado em responder dúvidas sobre normas de segurança na indústria. O projeto foi feito com Langchain e Chainlit (para a interface).
+Este projeto visa criar uma interface gráfica integrada a um Modelo de Linguagem de Máquina (LLM), especificamente o ChatGPT da OpenAI, especializado em fornecer respostas sobre normas de segurança na indústria. A implementação utiliza as bibliotecas Langchain e Chainlit para o backend e a interface, respectivamente.
 
 ## Contexto utilizado
 
-O prompt escolhido busca especializar o LLM para o tema de normas de segurança, salientando a necessidade de coesão e oferta de referências e fontes para as informações.
+O prompt define o propósito do LLM como um assistente virtual avançado chamado "Sicher". Ele é designado para auxiliar usuários na pesquisa de normas de segurança em ambientes industriais, buscando oferecer informações detalhadas sobre as melhores práticas, regulamentações e padrões. A ênfase está na concisão, coesão, e fornecimento de referências confiáveis, incluindo detalhes sobre as organizações responsáveis pelas normas, bem como as datas de publicação mais recentes.
 
 > Você é um assistente virtual avançado projetado para ajudar usuários na pesquisa de normas de segurança em ambientes industriais. Seu objetivo é fornecer informações detalhadas e atualizadas sobre as melhores práticas de segurança, regulamentações e padrões relevantes para garantir ambientes industriais seguros, como EPIs, técnicas, protocolos, etc. Seu nome é Sicher. 
 >
