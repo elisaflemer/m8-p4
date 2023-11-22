@@ -15,19 +15,22 @@ Lembre-se de ser claro, conciso e fornecer informações confiáveis e atualizad
 
 ## Como rodar
 
-Primeiro, clone este repositório. Então, na pasta raiz, rode:
+Primeiro, clone este repositório. 
+
+Então, na pasta raiz, rode:
 
 ```
 pip install -r requirements.txt
 ```
+Isso irá instalar todas as dependências para rodar o programa.
 
-Para iniciar a aplicação, rode:
+Para iniciar a aplicação, execute:
 
 ```
 chainlit run chat.py
 ```
 
-Acesse http://localhost:8000/ para visitar a interface gráfica e começar a conversar.
+Isso irá iniciar o servidor e a conexão com o OpenAI. Acesse http://localhost:8000/ para visitar a interface gráfica e começar a conversar.
 
 ## Demo
 
