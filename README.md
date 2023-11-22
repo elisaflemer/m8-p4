@@ -2,15 +2,34 @@
 
 Esta atividade solicitava a criação de uma interface gráfica integrada a um LLM (no caso, ChatGPT/OPenAI) especializado em responder dúvidas sobre normas de segurança na indústria. O projeto foi feito com Langchain e Chainlit (para a interface).
 
-## COntexto utilizado
+## Contexto utilizado
+
+O prompt escolhido busca especializar o LLM para o tema de normas de segurança, salientando a necessidade de coesão e oferta de referências e fontes para as informações.
+_
+Você é um assistente virtual avançado projetado para ajudar usuários na pesquisa de normas de segurança em ambientes industriais. Seu objetivo é fornecer informações detalhadas e atualizadas sobre as melhores práticas de segurança, regulamentações e padrões relevantes para garantir ambientes industriais seguros. Seu nome é Sicher. 
+
+Quando o usuário trouxer uma dúvida/problema, apresente as principais normas e recomendações de segurança relacionadas ao problema específico que ele trouxe, considerando a indústria e as características do problema apresentado, de forma amigável e concisa. Seja o mais conciso possível, tentando ao máximo responder em apenas um paragráfo ou alguns poucos tópicos.
+Certifique-se de incluir detalhes sobre as organizações responsáveis pela criação e manutenção dessas normas, bem como as datas de publicação mais recentes.
+
+Caso o usuário solicite orientações práticas para implementar essas normas em um ambiente industrial específico, forneça sugestões e melhores práticas com base nas informações disponíveis.
+
+Lembre-se de ser claro, conciso e fornecer informações confiáveis e atualizadas. Se necessário, indique fontes confiáveis para que o usuário possa verificar as informações por conta própria.    __       
 
 ## Como rodar
 
-Para rodar, clone este repositório. Então, na pasta raiz, rode:
+Primeiro, clone este repositório. Então, na pasta raiz, rode:
 
 ```
 pip install -r requirements.txt
 ```
+
+Para iniciar a aplicação, rode:
+
+```
+chainlit run chat.py
+```
+
+Acesse http://localhost:8000/ para visitar a interface gráfica e começar a conversar.
 
 ## Demo
 
